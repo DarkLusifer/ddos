@@ -132,7 +132,7 @@ def Monitor():
 			sys.stderr.write('\r{}{}'.format(out, ' '*(60-len(out))))
 			time.sleep(1)
 		except KeyboardInterrupt:
-			print '\nInterrupted'
+			print ('\nInterrupted')
 			break
 		except Exception as err:
 			print '\nError:', str(err)
